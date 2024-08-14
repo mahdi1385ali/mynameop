@@ -252,10 +252,9 @@
         margin-left: 10px;
     }
 }
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 431px){
     .shadoww{
-        width: 406px;
-        height: 800px;
+        height: 800px;width: 406px;
         margin-left: 2px;
         margin-top: 56px; 
         float: left;
@@ -312,27 +311,26 @@
 }
 @media only screen and (max-width: 414px){
     .shadoww{
-        width: 396px;
-        height: 760px;
-        margin-left: 6px;
+        width: 300px;
+        height: 660px;
         margin-top: 16px; 
         float: left;
     }
     .Tabell{
         background-size: cover;
-        width: 290px;
-        height: 400px;
-        margin-left: 40px;
+        width: 250px;
+        height: 200px;
+        margin-left: 24px;
         margin-top: 30px;
         margin-bottom: 20px;
         border-radius: 100px;
         box-shadow: 1px 1px 20px rgb(255, 0, 0);
     }
     .div-informeshen{
-        width: 320px;
+        width: 250px;
         height: 160px;
         margin-top: 70px;
-        margin-left:55px ;
+        margin-left:25px ;
     }
     .my-name{
         height: 40px;
@@ -349,7 +347,7 @@
     }
     .text-1{
         font-size: 18px;
-        margin-right: 60px;
+        margin-right: 12px;
     }
     .text-2{
         font-size: 18px;
@@ -361,7 +359,7 @@
         font-size: 18px;
     }
     .img-instgram{
-        margin-left: 56px;
+        margin-left: 25px;
     }
     .img-telgrame{
         margin-left: 10px;
@@ -369,8 +367,8 @@
 }
 @media only screen and (max-width: 412px){
     .shadoww{
-        width: 350px;
-        height: 700px;
+        width: 386px;
+        height: 860px;
         margin-left: 2px;
         margin-top: 16px; 
         float: left;
@@ -426,15 +424,15 @@
 }
 @media only screen and (max-width: 391px){
     .shadoww{
-        width: 3000px;
-        height: 7200px;
+        width: 206px;
+        height: 750px;
         margin-left: 0px;
         margin-top: 36px; 
         float: left;
     }
     .Tabell{
         background-size: cover;
-        width: 290px;
+        width: 210px;
         height: 300px;
         margin-left: 37px;
         margin-top: 30px;
@@ -443,7 +441,7 @@
         box-shadow: 1px 1px 20px rgb(255, 0, 0);
     }
     .div-informeshen{
-        width: 300px;
+        width: 100px;
         height: 160px;
         margin-top: 70px;
         margin-left:40px ;
