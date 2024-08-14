@@ -104,8 +104,8 @@
     .shadoww{
         width: 300px;
         height: 710px;
-        margin-left: 35px;
-        margin-top: 50px;  
+        margin-left: 15px;
+        margin-top: 50px; 
     }
     .Tabell{
         background-size: cover;
@@ -115,7 +115,7 @@
         margin-top: 30px;
         margin-bottom: 40px;
         border-radius: 100px;
-        box-shadow: 1px 1px 20px white;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
     }
     .div-informeshen{
         width: 260px;
@@ -147,6 +147,62 @@
     }
     .text-alin{
         font-size: 16px;
+        
+    }
+    .img-instgram{
+        margin-left: 40px;
+    }
+    .img-telgrame{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 431px){
+    .shadoww{
+        width: 350px;
+        height: 810px;
+        margin-left: 33px;
+        margin-top: 50px; 
+    }
+    .Tabell{
+        background-size: cover;
+        width: 250px;
+        height: 180px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        border-radius: 100px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+    }
+    .div-informeshen{
+        width: 300px;
+        height: 160px;
+        margin-top: 70px;
+        margin-left:40px ;
+    }
+    .my-name{
+        height: 60px;
+        font-size: 35px;
+    }
+    .font{
+        font-size: 35px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .font-tabel{
+        font-size: 17px;
+        height: 40px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .text-aline-RGB{
+        font-size: 20px;
+    }
+    .text-alin{
+        font-size: 20px;
         
     }
     .img-instgram{
