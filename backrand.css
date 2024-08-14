@@ -14,6 +14,7 @@
     width: 245px;height: 500px;
     background-image: url(./image/dragone.png);
     border-radius: 100px;
+    filter: drop-shadow(1px 1px 20px rgb(255, 0, 0));
 }
 .img-instgram{
     width: 30px;height: 30px; float: left; margin-left: 48px;
@@ -85,6 +86,8 @@
     .shadoww{
         width: 900px;
         height: 1200px;
+        margin-left: 56px;
+        margin-top: 76px; 
         float: left;
     }
     .Tabell{
@@ -197,6 +200,7 @@
     .shadoww{
         width: 700px;
         height: 900px;
+        margin-left: 30px;
         margin-top: 56px; 
         float: left;
     }
@@ -252,16 +256,19 @@
 @media only screen and (max-width: 431px){
     .shadoww{
         height: 800px;width: 406px;
+        margin-left: 10px;
         margin-top: 56px; 
         float: left;
     }
     .Tabell{
         background-size: cover;
         width: 290px;
+        height: 200px;
         margin-left: 55px;
         margin-top: 30px;
         margin-bottom: 40px;
         border-radius: 100px;
+
     }
     .div-informeshen{
         width: 300px;
@@ -359,17 +366,23 @@
         margin-left: 10px;
     }
 }
+@media only screen and (max-width: 413px){
     .shadoww{
         width: 386px;
+        height: 760px;
+        margin-left: 13px;
+        margin-top: 76px; 
         float: left;
     }
     .Tabell{
         background-size: cover;
         width: 290px;
+        height: 200px;
         margin-left: 40px;
         margin-top: 30px;
         margin-bottom: 20px;
         border-radius: 100px;
+
     }
     .div-informeshen{
         width: 320px;
@@ -391,12 +404,17 @@
         height: 40px;
     }
     .text-1{
+        font-size: 23px;
+        margin-right: 40px;
     }
     .text-2{
+        font-size: 23px;
     }
     .text-aline-RGB{
+        font-size: 23px;
     }
     .text-alin{
+        font-size: 23px;
     }
     .img-instgram{
         margin-left: 56px;
@@ -407,19 +425,23 @@
 }
 @media only screen and (max-width: 391px){
     .shadoww{
+        width: 306px;
         height: 750px;
+        margin-left: 40px;
         margin-top: 36px; 
         float: left;
     }
     .Tabell{
         background-size: cover;
         width: 210px;
+        height: 140px;
         margin-left: 37px;
         margin-top: 30px;
         margin-bottom: 20px;
         border-radius: 100px;
     }
     .div-informeshen{
+        width: 260px;
         height: 160px;
         margin-top: 70px;
         margin-left:40px ;
@@ -439,6 +461,63 @@
     }
     .text-1{
         font-size: 18px;
+        margin-right: 22px;
+    }
+    .text-2{
+        font-size: 18px;
+    }
+    .text-aline-RGB{
+        font-size: 18px;
+    }
+    .text-alin{
+        font-size: 18px;
+    }
+    .img-instgram{
+        margin-left: 40px;
+    }
+    .img-telgrame{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .shadoww{
+        width: 306px;
+        height: 650px;
+        margin-left: 27px;
+        margin-top: 36px; 
+        float: left;
+    }
+    .Tabell{
+        background-size: cover;
+        width: 210px;
+        height: 140px;
+        margin-left: 37px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+    .div-informeshen{
+        width: 260px;
+        height: 160px;
+        margin-top: 70px;
+        margin-left:40px ;
+    }
+    .my-name{
+        height: 40px;
+        font-size: 30px;
+    }
+    .font{
+        font-size: 30px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .font-tabel{
+        font-size: 17px;
+        height: 40px;
+    }
+    .text-1{
+        font-size: 18px;
+        margin-right: 22px;
     }
     .text-2{
         font-size: 18px;
