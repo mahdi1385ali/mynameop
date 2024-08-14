@@ -2,8 +2,8 @@
     border-radius: 10px;
     margin-left: 280px;
     margin-top: 90px;
-    width: 900px;height: 500px;
     float: left;
+    width: 900px;height: 500px;
     box-shadow: 5px 5px 30px #ff0000 ;
     background-color: rgb(0, 0, 0);
 }
@@ -73,19 +73,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*moile*/
 @media only screen and (max-width: 375px){
     .shadoww{
@@ -103,16 +90,17 @@
 @media only screen and (max-width: 391px){
     .shadoww{
         width: 300px;
-        height: 710px;
+        height: 510px;
         margin-left: 15px;
         margin-top: 50px; 
+        float: none;
     }
     .Tabell{
         background-size: cover;
         width: 200px;
         height: 180px;
         margin-left: 50px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 40px;
         border-radius: 100px;
         box-shadow: 1px 1px 20px rgb(255, 0, 0);
@@ -158,16 +146,17 @@
 }
 @media only screen and (max-width: 431px){
     .shadoww{
-        width: 350px;
+        width: 400px;
         height: 810px;
-        margin-left: 33px;
-        margin-top: 50px; 
+        float: none;
+        margin-top: 100px;
+        
     }
     .Tabell{
         background-size: cover;
-        width: 250px;
-        height: 180px;
-        margin-left: 50px;
+        width: 200px;
+        height: 120px;
+        margin-left: 70px;
         margin-top: 30px;
         margin-bottom: 40px;
         border-radius: 100px;
@@ -212,6 +201,3 @@
         margin-left: 10px;
     }
 }
-
-
-    
