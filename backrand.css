@@ -309,11 +309,12 @@
         margin-left: 10px;
     }
 }
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 415px){
     .shadoww{
         width: 300px;
         height: 660px;
-        margin-top: 16px; 
+        margin-top: 16px;
+        margin-left: 6px; 
         float: left;
     }
     .Tabell{
@@ -324,7 +325,7 @@
         margin-top: 30px;
         margin-bottom: 20px;
         border-radius: 100px;
-        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+        filter: drop-shadow(1px 1px 20px red);
     }
     .div-informeshen{
         width: 250px;
