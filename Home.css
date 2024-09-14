@@ -1,0 +1,152 @@
+/*بخش منو های صفحه منو*/
+@font-face {
+    font-family:nahid;
+    src:url(./Font/nahid/Nahid.woff) format('woff')
+    }
+    @font-face {
+        font-family: taha;
+        src: url(./Font/taha-font/Tanha.woff) format('woff')
+    }
+    @font-face {
+        font-family: hosen;
+        src: url(./Font/hosen-font/Gandom.woff) format('woff')
+    }
+    @font-face {
+        font-family: hosen-fon;
+        src: url(./Font/hosen/Glowbloomdemo-ZpG7q.ttf) format('woff')
+    }
+    @font-face {
+        font-family: vazir;
+        src: url(./Font/vazir-font/Vazir-Bold.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: pota;
+        src: url(./Font/pota/Royal-BF6543ae6d80cec.otf) format('woff')
+    }
+
+body{
+    font-family: taha;
+    background-color: rgb(73, 73, 73);
+    color: wheat;
+    text-decoration: none;
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+.top{
+    border-bottom: 1px solid rgba(122, 122, 122, 0.307) ;
+    height: 40px;
+}
+.top-1{
+    border-bottom: 1px solid rgba(122, 122, 122, 0.307) ;
+    height: 40px;
+}
+
+.Home{
+    float: right;
+    margin-right: 30px;
+    margin-top: 4px;
+    animation-duration: 1.4s;
+    color: aliceblue;
+    text-decoration: none;   
+}
+.sale{
+    float: right;
+    margin-right:20px;
+    margin-top: 4px;
+    animation: sale;
+    animation-duration: 2s;
+    text-decoration: none;
+    color: wheat;
+}
+.icon{
+    width: 60px;height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-family: hosen-fon;
+    color: rgb(169, 169, 169);
+    text-decoration: none;
+}
+
+.img{
+    filter: drop-shadow(3px 3px 30px rgb(136, 136, 136));
+    margin-left: 0px;
+    width: 360px;height: 330px;
+    background-size: cover;
+    background-image: url(./image/img-3.png);
+    animation: img;
+    animation-duration: 2s;
+    float: left;
+}
+.text-1{
+    text-decoration: none;
+    font-family: vazir;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 202, 104);
+    box-shadow: 2px 2px 5px 5px rgb(255, 202, 104);
+    filter: drop-shadow(1px 1px 8px rgb(255, 255, 255));;
+    font-size: 25px;
+    border-radius: 13px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    width: 130px;
+    height: 45;
+    animation: text;
+    animation-duration: 2s;
+}
+.text-2{
+    text-decoration: none;
+    font-family: vazir;
+    color: rgb(253, 253, 243);
+    filter: drop-shadow(1px 1px 13px rgb(255, 255, 255));
+    font-size: 25px;
+    border-radius: 6px;
+    float: left;
+    float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-right: 10px;
+    text-align: center;
+    width: 160px;
+    height: 45;
+    animation: text;
+    animation-duration: 2s;
+}
+
+.img-2{
+    background-image: url(./image/img-2.png);
+    background-size: cover;
+    width: 240px;height: 230px;
+    float: left;
+    animation: img-2;
+    animation-duration: 2.5s;
+    margin-left: 60px;
+    margin-top: 40px;
+    filter: drop-shadow(3px 3px 10px rgb(152, 152, 152));
+}
+
+@keyframes img-2{
+    from{margin-top: 50px;}
+    to{margin-top: 40px;}
+}
+@keyframes img{
+    from{margin-top: 100px;}
+    to{margin-top: 0px;}
+}
+@keyframes text{
+    from{margin-top: 140px;}
+    to{margin-top: 70px;}
+}
+
+
